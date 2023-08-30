@@ -1,77 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Box Component</title>
-  <title>SCET - Cadastro do coordenador</title>
-  <link rel="stylesheet" type="text/css" href="../css/home_coord.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCET - Cadastro de Coordenador</title>
+    <link rel="stylesheet" type="text/css" href="../css/cad_coord.css">
 </head>
 <body>
-  <div class="box">
-    <div class="white-vertical-bar"></div>
-  <div class="box">
-    <div class="home-do-coordenador-wrapper">
-      <div class="box">
-        <div class="home-do-coordenador">
-    <div class="home-do-coordenador-wrapper">
-      <div class="home-do-coordenador">
-        <div class="overlap">
-          <img class="rectangle"  />
-          <div class="backgorund" >
-          <div class="conteiner-azul" >
-          <img class="vector" />
-          <div class="boto-sobre">
-            <div class="overlap-group">
-              <div class="text-wrapper">Sobre</div>
-              <img class="img"  />
-            </div>
-          </div>
-          <div class="menu">
-            <img class="ic-twotone"  />
-            <div class="boto-TCC">
-              <div class="overlap-group">
-                <div class="div">TCC</div>
-                <img class="vector-2"  />
-              </div>
-            </div>
-            <div class="boto-estgio">
-              <div class="overlap-group">
-                <div class="div">Estágio</div>
-                <img class="vector-3" />
-              </div>
-            </div>
-            <div class="boto-notificaes">
-              <div class="overlap-2">
-                <div class="normal">
-                  <img class="notificao-normal" />
-                </div>
-                <div class="text-wrapper-2">Notificações</div>
-              </div>
-              <img class="notificao-mouse-em"/>
-            </div>
-            <div class="boto-pendentes">
-              <div class="overlap-group">
-                <div class="text-wrapper-3">Pendentes</div>
-                <img class="vector-4"  />
-              </div>
-            </div>
-          </div>
-          <div class="perfil">
-            <img class="vector-5"   />
-            <img class="vector-6"   />
-            <div class="text-wrapper-4">UsuárioCoordenador</div>
-          </div>
-          <h1 class="h-1">Professores livres</h1>
-          <img class="rectangle-2"   />
-          <div class="text-wrapper-5">Alunos pendentes</div>
+
+    <section class="container">
+ 
+        <div class="cont">
+            <img src="../img/logo-scet.jpg" alt="logo-scet"  width="342" height="250">
+            <a href="../html/cadastro.html"><button>CADASTRAR</button></a>
         </div>
+ 
+        <h1>Cadastro de Coordenador</h1>
+
+        <div class="box">
+            <div class="box-input" id="nome">
+                <input type="text" required="required">
+              <span>Nome</span>
+        </div>
+            <div class="box-input" id="email">
+                <input type="email" required="required">
+            <span>Email</span>
       </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
+        <div class="box-input" id="senha">
+            <input type="password" required="required">
+            <span>Senha</span>
+      </div>
+        <div class="box-input" id="confirmar">
+            <input type="password" required="required">
+            <span>Confirmação de senha</span>
+      </div>
+      </div>
+    
 </body>
 </html>
